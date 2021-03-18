@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+footer{
+  background-color: lightskyblue;
+  color: darkgreen;
+  text-align: center;
+  height: 35px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  padding: 1px;
+  margin: -9px;
+  border: 2px solid black;
+}
+
+body{
+  background-color: lightgray;
+}
+
