@@ -1,0 +1,17 @@
+footer{
+  background-color: red;
+  color: darkgreen;
+  text-align: center;
+  height: 35px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  padding: 1px;
+  margin: -9px;
+  border: 2px solid darkblue;
+}
+
+body{
+  background-color: greenyellow;
+}
