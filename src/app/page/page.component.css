@@ -3,5 +3,6 @@ mat-card {
   background: lightsteelblue;
   text-align: right;
   width: 469px;
+  height: 700px;
   border: 2px solid steelblue;
 }
