@@ -15,5 +15,7 @@ header{
 
 body{
   background-image: url("img/placeholder-background.png");
+  min-width: 950px;
+  min-height: 550px;
 }
 
