@@ -1,8 +1,16 @@
-mat-card {
+mat-grid-tile {
   padding-bottom: -10px;
-  background: lightsteelblue;
-  text-align: right;
-  width: 469px;
-  height: 700px;
-  border: 2px solid steelblue;
+  text-align: left;
+  width: 50%;
+  height: fit-content;
+  border: 5px solid black;
+}
+mat-card {
+  text-align: left;
+  width: 100%;
+  height: fit-content;
+  border: 5px solid black;
+}
+iframe {
+  min-width: fit-content;
 }
