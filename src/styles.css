@@ -1,14 +1,33 @@
-header{
+.myHeader{
   background-color: lightskyblue;
-  color: darkgreen;
-  text-align: center;
+  text-align: left;
   height: 60px;
   width: 100%;
-  position: fixed;
   font-size: 14px;
-  padding: 1px;
+  padding: 10px 16px;
   margin: -9px;
   border: 2px solid black;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+image{
+  height: 50px;
+  width: 50px;
 }
 
 body{
