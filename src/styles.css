@@ -12,7 +12,7 @@ header{
 }
 
 body{
-  background-image: url("img/placeholder-background.png");
+  background-image: url("assets/img/placeholder-background.png");
   min-width: 950px;
   min-height: 550px;
 }
