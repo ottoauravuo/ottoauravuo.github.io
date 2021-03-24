@@ -1,16 +1,9 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {scrollFunction()};
 
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "30px";
   } else {
-    header.classList.remove("sticky");
+    document.getElementById("header").style.fontSize = "90px";
   }
 }
