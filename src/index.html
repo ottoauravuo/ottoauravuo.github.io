@@ -7,11 +7,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="assets/myheader.js"></script>
 
-  <header class="header">
-    <img src="assets/img/logo.png" alt="kuva on rikki"/>
-    <p> Lappeenrannan Padel Kenttä</p>
-  </header>
+
 
 </head>
 <br><br><br>
@@ -19,6 +17,30 @@
 <a href="#" class="fa fa-instagram"></a>
 
 <body>
+<div class="top-container">
+  <h1>Scroll Down</h1>
+  <p>Scroll down to see the sticky effect.</p>
+</div>
+
+<div class="header" id="myHeader">
+  <img class="image" src="assets/img/logo.png" height="50px" alt="kuva on rikki"/>
+  <h1>Lappeenrannan Padel Kenttä</h1>
+</div>
   <app-root></app-root>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
 </body>
 </html>
