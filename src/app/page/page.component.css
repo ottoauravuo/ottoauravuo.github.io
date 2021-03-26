@@ -4,12 +4,14 @@ mat-grid-list {
   height: 40px;
   border: 5px solid black;
 }
+
 mat-card {
   text-align: left;
   width: 98%;
   height: 500px;
   border: 5px solid black;
 }
+
 iframe {
   min-width: fit-content;
 }
