@@ -1,0 +1,27 @@
+<div class="header" id="myHeader">
+  <div class="headerContent">
+    <img class="image" src="assets/img/logokeltainen.png" height="80px" style="padding-left: 20px; padding-top: 10px" alt="kuva on rikki"/>
+    <h1 class="socialMediaText" style="color:#fdc100">Seuraa meitä</h1>
+  </div>
+
+  <div class="headerContent">
+    <h2>Lappeenrannan Padel Kenttä</h2>
+  </div>
+
+  <div class="headerSocial">
+    <a href="https://www.facebook.com/moveolappeenranta/" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/moveolpr/?hl=en" class="fa fa-instagram"></a>
+  </div>
+</div>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("header").style.fontSize = "30px";
+    } else {
+      document.getElementById("header").style.fontSize = "90px";
+    }
+  }
+</script>
