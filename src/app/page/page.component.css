@@ -1,15 +1,21 @@
-mat-grid-tile {
+mat-grid-list {
   text-align: left;
-  width: 50%;
-  height: 50px;
+  width: 99%;
+  height: 40px;
   border: 5px solid black;
 }
 mat-card {
   text-align: left;
-  width: 100%;
+  width: 98%;
   height: 500px;
   border: 5px solid black;
 }
 iframe {
   min-width: fit-content;
+}
+
+.info{
+  height: 230px;
+  width: 98%;
+  background-color: lightslategrey;
 }
