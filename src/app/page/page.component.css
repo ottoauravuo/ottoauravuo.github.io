@@ -19,6 +19,8 @@ iframe {
   height: auto;
   width: auto;
   background-color: black;
+  text-align: center;
+  font-family: Trebuchet MS,serif;
 }
 
 .intro{
@@ -30,7 +32,4 @@ iframe {
   background-color: #f1f1f1;
   color: black;
   font-size: 40px;
-}
-.bottomLogo {
-  padding-left: 800px;
 }
