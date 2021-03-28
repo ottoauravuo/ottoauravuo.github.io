@@ -1,6 +1,6 @@
 <div class="header" id="myHeader">
   <div class="headerContent">
-    <img class="image" src="assets/img/kokologo.png" height="100px" style="padding-left: 20px; padding-top: 10px" alt="kuva on rikki"/>
+    <img class="image" src="assets/img/kokologo.png" height="100px" width="325px" style="padding-left: 20px; padding-top: 10px" alt="kuva on rikki"/>
   </div>
 
   <div class="headerContent">
@@ -13,7 +13,7 @@
   </div>
 
   <div>
-    <h1 class="socialMediaText" style="color:#fdc100">SEURAA MEITÄ</h1>
+    <h1 class="socialMediaText" style="color:#fdc100; font-size: 90px">SEURAA MEITÄ</h1>
   </div>
 </div>
 
@@ -22,9 +22,13 @@
 
   function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      document.getElementById("header").style.fontSize = "30px";
+      document.getElementById("socialMediaText").style.fontSize = "30px";
+      document.getElementById("kokologo.png").style.height = "50px";
+      document.getElementById("kokologo.png").style.width = "190px";
     } else {
-      document.getElementById("header").style.fontSize = "90px";
+      document.getElementById("socialMediaText").style.fontSize = "90px";
+      document.getElementById("kokologo.png").style.height = "100px";
+      document.getElementById("kokologo.png").style.width = "325px";
     }
   }
 </script>
