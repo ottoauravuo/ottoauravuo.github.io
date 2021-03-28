@@ -8,6 +8,7 @@ mat-card {
   text-align: left;
   width: auto;
   height: auto;
+  min-height: 250px;
 }
 
 iframe {
@@ -20,18 +21,16 @@ iframe {
   background-color: black;
 }
 
-<<<<<<< Updated upstream
 .intro{
   height: 800px;
   width: auto;
 }
 
-.introText span{
+.introText span {
   background-color: #f1f1f1;
   color: black;
   font-size: 40px;
-=======
+}
 .bottomLogo {
   padding-left: 800px;
->>>>>>> Stashed changes
 }

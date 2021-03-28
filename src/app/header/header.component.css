@@ -74,14 +74,10 @@ image{
 }
 
 .title {
-<<<<<<< Updated upstream
   padding-left: 325px;
   font-family: Roboto, serif;
   font-size: 50px;
-
-=======
   padding-left: 250px;
   font-family: Trebuchet MS,serif;
   font-size: 50px;
->>>>>>> Stashed changes
 }
