@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   transition: 0.2s;
+  min-width: 950px;
 }
 
 .headerSocial{
@@ -46,10 +47,11 @@ image{
 }
 
 .fa {
-  padding: 25px;
-  font-size: 50px;
-  width: 40px;
-  height: 40px;
+  top: 20px;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   text-decoration: none;
 }
@@ -66,4 +68,10 @@ image{
 .fa-instagram {
   background: rosybrown;
   color: white;
+}
+
+.h2 {
+  left: 200px;
+  padding: 2000px;
+  font-family: Roboto;
 }
