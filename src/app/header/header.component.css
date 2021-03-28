@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   transition: 0.2s;
-  min-width: 950px;
+  min-width: 1500px;
 }
 
 .headerSocial{
@@ -75,9 +75,6 @@ image{
 
 .title {
   padding-left: 325px;
-  font-family: Roboto, serif;
   font-size: 50px;
-  padding-left: 240px;
   font-family: Trebuchet MS,serif;
-  font-size: 50px;
 }
