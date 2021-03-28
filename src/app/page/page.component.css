@@ -1,12 +1,12 @@
 mat-grid-tile {
   text-align: left;
-  width: 99%;
+  width: auto;
   height: auto;
 }
 
 mat-card {
   text-align: left;
-  width: 98%;
+  width: auto;
   height: 500px;
 }
 
@@ -15,7 +15,7 @@ iframe {
 }
 
 .info{
-  height: 230px;
-  width: 98%;
+  height: auto;
+  width: auto;
   background-color: black;
 }
