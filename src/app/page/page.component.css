@@ -1,7 +1,11 @@
 mat-grid-tile {
   text-align: left;
   width: 99%;
+<<<<<<< Updated upstream
   height: 40px;
+=======
+  height: auto;
+>>>>>>> Stashed changes
 }
 
 mat-card {
