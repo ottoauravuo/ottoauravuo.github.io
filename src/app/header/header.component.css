@@ -14,6 +14,8 @@
 
 .headerSocial{
   float: right;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 .headerContent{
@@ -23,6 +25,8 @@
 .socialMediaText {
   float: right;
   color: #fdc100;
+  padding-top: 20px;
+  padding-right: 20px
 }
 
 .top-container {
@@ -69,8 +73,8 @@ image{
   color: white;
 }
 
-.h2 {
-  left: 200px;
-  padding: 2000px;
-  font-family: Roboto;
+.title {
+  padding-left: 250px;
+  font-family: Roboto, serif;
+  font-size: 50px
 }
