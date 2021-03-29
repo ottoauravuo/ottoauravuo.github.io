@@ -2,6 +2,7 @@ mat-grid-tile {
   text-align: left;
   width: auto;
   height: auto;
+  font-family: chivo, serif;
 }
 
 mat-card {
@@ -20,7 +21,9 @@ iframe {
   width: auto;
   background-color: black;
   text-align: center;
-  font-family: Trebuchet MS,serif;
+  font-family: chivo-medium, serif;
+  color: darkgrey;
+  text-align: center;
 }
 
 .intro{
@@ -35,6 +38,14 @@ iframe {
   font-family: chivo, serif;
 }
 
-.whatsApp {
+.padelRules{
+  font-family: chivo, serif;
+}
+
+.whatsApp{
+  font-family: chivo, serif;
+}
+
+.timmi{
   font-family: chivo, serif;
 }
