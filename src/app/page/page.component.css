@@ -40,15 +40,17 @@ iframe {
 
 .padelRules{
   font-family: chivo, serif;
+  padding-bottom: 30px;
 }
 
 .whatsApp{
   font-family: chivo, serif;
+  text-align: center;
 }
 
 .timmi{
   font-family: chivo, serif;
-  background: coral;
+  background: deepskyblue;
   font-size: 40px;
   text-align: center;
 }
