@@ -4,3 +4,12 @@ body{
   min-height: 550px;
 }
 
+@font-face {
+  font-family: "chivo-medium";
+  src: local("chivo"), url(assets/fonts/chivo/Chivo-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "chivo";
+  src: local("chivo"), url(assets/fonts/chivo/Chivo-Regular.otf) format("truetype");
+}
