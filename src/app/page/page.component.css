@@ -16,7 +16,7 @@ iframe {
   min-width: fit-content;
 }
 
-.info{
+.contactInfo{
   height: auto;
   width: auto;
   background-color: black;
@@ -31,12 +31,13 @@ iframe {
   width: auto;
 }
 
-.introText span {
+.introText span{
   background-color: #f1f1f1;
   color: black;
   font-size: 40px;
   font-family: chivo, serif;
 }
+
 
 .padelRules{
   font-family: chivo, serif;

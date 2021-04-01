@@ -29,7 +29,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/js/header.js"
+              "src/assets/js/javascript.js"
             ]
           },
           "configurations": {
