@@ -80,6 +80,20 @@ image{
 }
 
 .finButton{
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 50px;
+  float: right;
+  top: 40%;
+  background-color: #fdc100;
+  margin-right: 0.5%;
+}
+
+.engButton{
+  height: 40px;
+  width: 50px;
+  float: right;
+  top: 40%;
+  background-color: #fdc100;
+  margin-right: 0.5%;
+
 }

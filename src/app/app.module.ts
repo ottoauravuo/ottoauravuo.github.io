@@ -5,7 +5,7 @@ import { PageComponent } from './page/page.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { HeaderComponent } from './header/header.component';
-
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -18,6 +18,7 @@ import { HeaderComponent } from './header/header.component';
     BrowserModule,
     MatCardModule,
     MatGridListModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
