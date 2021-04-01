@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-declare const changeLanguageENG: any;
-declare const changeLanguageFIN: any;
+declare const changeHeaderLanguageENG: any;
+declare const changeHeaderLanguageFIN: any;
+declare const changeBodyLanguageENG: any;
+declare const changeBodyLanguageFIN: any;
+
 
 @Component({
   selector: 'app-header',
@@ -15,9 +18,11 @@ export class HeaderComponent implements OnInit {
   }
 
   changeLanguageENG() {
-    changeLanguageENG();
+    changeHeaderLanguageENG();
+    changeBodyLanguageENG();
   }
   changeLanguageFIN() {
-    changeLanguageFIN();
+    changeHeaderLanguageFIN();
+    changeBodyLanguageFIN();
   }
 }

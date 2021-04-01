@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare const changeBodyLanguageENG: any;
+declare const changeBodyLanguageFIN: any;
 
 @Component({
   selector: 'app-page',
@@ -12,4 +14,10 @@ export class PageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  changeBodyLanguageENG() {
+    changeBodyLanguageENG();
+  }
+  changeBodyLanguageFIN() {
+    changeBodyLanguageFIN();
+  }
 }
