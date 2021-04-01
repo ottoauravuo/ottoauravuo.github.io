@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare const changeLanguageENG: any;
+declare const changeLanguageFIN: any;
 
 @Component({
   selector: 'app-header',
@@ -12,4 +14,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  changeLanguageENG() {
+    changeLanguageENG();
+  }
+  changeLanguageFIN() {
+    changeLanguageFIN();
+  }
 }

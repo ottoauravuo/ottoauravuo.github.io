@@ -78,3 +78,8 @@ image{
   font-size: 50px;
   font-family: chivo-medium, serif;
 }
+
+.finButton{
+  height: 20px;
+  width: 20px;
+}
