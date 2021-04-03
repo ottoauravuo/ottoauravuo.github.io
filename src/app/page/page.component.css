@@ -31,11 +31,12 @@ iframe {
   width: auto;
 }
 
-.introText span{
+.introText{
   background-color: #f1f1f1;
   color: black;
   font-size: 40px;
   font-family: chivo, serif;
+  display: table;
 }
 
 
