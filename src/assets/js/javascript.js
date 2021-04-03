@@ -6,7 +6,9 @@ function changeHeaderLanguageENG(){
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "INTRO PLACEHOLDER";
   document.getElementById("whatsApp").innerHTML = "WHATSAPP PLACEHOLDER";
+  document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
+  document.getElementById("padelRulesTitle").innerHTML = "TITLE PLACEHOLDER";
   document.getElementById("padelRules").innerHTML = "RULES PLACEHOLDER";
   document.getElementById("parkingInstructions").innerHTML = "PARKING PLACEHOLDER";
   document.getElementById("contactInfo").innerHTML = "CONTACT PLACEHOLDER";
@@ -23,7 +25,9 @@ function changeBodyLanguageFIN(){
     "      hyvin sosiaalinen mailapeli. <br>Padel yhdistää kuntoilun, mielenkiintoisen pelin ja<br>\n" +
     "      sosiaalisuuden tavalla, johon hyvin harva urheilumuoto pystyy.";
   document.getElementById("whatsApp").innerHTML = "Liity Padel WhatsApp-ryhmään ja löydä pelikavereita!";
+  document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
+  document.getElementById("padelRulesTitle").innerHTML = "Padelin säännöt:";
   document.getElementById("padelRules").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
     "\n" +
     "      <br><br><strong>Pistelasku</strong> sama kuin tenniksessä (15, 30, 40 ja peli; tasatilanteessa 40-40 tarvitaan kaksi peräkkäistä pistettä pelin voittamiseksi). Pelien ollessa tasan 6-6, erävoitto ratkaistaan pelaamalla tie-break, joka pelataan 7 pisteeseen, kuitenkin kahden pisteen erolla.\n" +
