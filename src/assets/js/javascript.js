@@ -4,15 +4,47 @@ function changeHeaderLanguageENG(){
 
 }
 function changeBodyLanguageENG(){
-  document.getElementById("introText").innerHTML = "INTRO PLACEHOLDER";
-  document.getElementById("whatsApp").innerHTML = "WHATSAPP PLACEHOLDER";
+  document.getElementById("introText").innerHTML = "Padel is a racket game that combines the elements of tennis and squash. \n" +
+    "\n" +
+    "Since Padel is always played as a team game, it is a very social game by nature. \n" +
+    "\n" +
+    "Padel can combine fitness, exciting gaming, and social interaction in a way few sports games manage.  ";
+  document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
-  document.getElementById("padelRulesTitle").innerHTML = "TITLE PLACEHOLDER";
-  document.getElementById("padelRules").innerHTML = "RULES PLACEHOLDER";
+  document.getElementById("padelRulesTitle").innerHTML = "Rules of the game:";
+  document.getElementById("padelRules").innerHTML = "Matches \n" +
+    "\n" +
+    "are always played in doubles and the best of the three sets wins. \n" +
+    "\n" +
+    "The first to win 6 games wins the round, after they have a lead with a difference of two rounds.  \n" +
+    "\n" +
+    "At the beginning of the game, the teams decide which side they'll play.  \n" +
+    "\n" +
+    "The orientation lasts until the half-game, after which the sides can be changed. \n" +
+    "Scoring \n" +
+    "\n" +
+    "is the same as in tennis (15, 30, 40 and the game; in a draw 40-40, two consecutive points are needed for a team to win the game). \n" +
+    "\n" +
+    "When the game is tied 6-6, the winners are decided by playing a tiebreaker, which is played until 7 points, however again, with a lead of two points. \n" +
+    "The start of the game is made with a tap-off. \n" +
+    "The serve is decided by the winner of the tap-off. \n" +
+    "In the tap-off, all players are going to be hitting the ball once onto the opponent's field, after which the winners of the tap-off can decide which side they'll play and will perform the serve. \n" +
+    "The serve must bounce off the opponent's square. \n" +
+    "After the bounce, the ball can hit the glass wall, but not the net wall. \n" +
+    "If the serve hits the net but is otherwise correct, the player can have a second attempt. \n" +
+    "During the serve, the teammate must be close to the net. \n" +
+    "The first point is served from the right-side square, after that from the left and then right back-and-forth again.  \n" +
+    "After the end of a match, the serve passes to the opponent. \n" +
+    "After the serve, all of the ground becomes the playing field. \n" +
+    "The serve cannot be hit back instantly from the air, but only after the return of the serve, the ball may be hit directly from the air, after a bounce, either after a bounce from your own glass wall and directly from the air after it bounced off the opponent’s glass wall. The ball cannot be hit on the opponent's side through the net wall. \n" +
+    "\n" +
+    "During a ball rally, the ball may not touch the ground on the same side of the field more than once. \n" +
+    "The game is played \n" +
+    "\n" +
+    "until the ball gets stuck in the net, the ball falls onto your own side after hitting the net, the ball bounces twice off the ground on the same side of the field, or the ball hits the glass wall or net on the opponent's side before first touching the ground. ";
   document.getElementById("parkingInstructions").innerHTML = "PARKING PLACEHOLDER";
-  document.getElementById("contactInfoTitle").innerHTML = "CONTACT TITLE PLACEHOLDER";
-  document.getElementById("contactInfo").innerHTML = "CONTACT PLACEHOLDER";
+  document.getElementById("contactInfoTitle").innerHTML = "Contact Info";
 }
 
 function changeHeaderLanguageFIN(){
@@ -52,9 +84,4 @@ function changeBodyLanguageFIN(){
     "      <br><br><strong>Pallon lyöminen ulos kentältä.</strong> Jos pelaaja lyö pallon vastustajan kenttäpuoliskon kautta ulos kentältä, lyöjä voittaa yleensä pisteen. Pallon perään voi kuitenkin joissain tapauksissa juosta ulos oviaukoista lyödäkseen sen takaisin verkon yli vastustajan kenttäpuoliskolle.</p>";
   document.getElementById("parkingInstructions").innerHTML = "Parkkiohjeet ja miten saapua kentälle. (tulossa)";
   document.getElementById("contactInfoTitle").innerHTML = "Yhteystiedot";
-  document.getElementById("contactInfo").innerHTML = "Pekko Pirhonen <br>\n" +
-    "      Liikuntakoordinaattori / Sports coordinator <br>\n" +
-    "      LUT-yliopisto / LUT University <br>\n" +
-    "      +358 40 725 8826 <br>\n" +
-    "      pekko.pirhonen@lut.fi";
 }
