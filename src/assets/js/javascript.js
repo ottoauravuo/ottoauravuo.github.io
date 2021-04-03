@@ -4,11 +4,9 @@ function changeHeaderLanguageENG(){
 
 }
 function changeBodyLanguageENG(){
-  document.getElementById("introText").innerHTML = "Padel is a racket game that combines the elements of tennis and squash. \n" +
-    "\n" +
-    "Since Padel is always played as a team game, it is a very social game by nature. \n" +
-    "\n" +
-    "Padel can combine fitness, exciting gaming, and social interaction in a way few sports games manage.  ";
+  document.getElementById("introText").innerHTML = "Padel is a racket game that combines the elements of tennis and squash. <br>" +
+    "Since Padel is always played as a team game, <br> it is a very social game by nature. <br> Padel can combine fitness, exciting gaming, " +
+    "and social <br>interaction in a way few sports games manage.";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
@@ -29,7 +27,8 @@ function changeBodyLanguageENG(){
     "When the game is tied 6-6, the winners are decided by playing a tiebreaker, which is played until 7 points, however again, with a lead of two points. \n" +
     "The start of the game is made with a tap-off. \n" +
     "The serve is decided by the winner of the tap-off. \n" +
-    "In the tap-off, all players are going to be hitting the ball once onto the opponent's field, after which the winners of the tap-off can decide which side they'll play and will perform the serve. \n" +
+    "In the tap-off, all players are going to be hitting the ball once onto the opponent's field, " +
+    "after which the winners of the tap-off can decide which side they'll play and will perform the serve. \n" +
     "The serve must bounce off the opponent's square. \n" +
     "After the bounce, the ball can hit the glass wall, but not the net wall. \n" +
     "If the serve hits the net but is otherwise correct, the player can have a second attempt. \n" +
@@ -37,12 +36,15 @@ function changeBodyLanguageENG(){
     "The first point is served from the right-side square, after that from the left and then right back-and-forth again.  \n" +
     "After the end of a match, the serve passes to the opponent. \n" +
     "After the serve, all of the ground becomes the playing field. \n" +
-    "The serve cannot be hit back instantly from the air, but only after the return of the serve, the ball may be hit directly from the air, after a bounce, either after a bounce from your own glass wall and directly from the air after it bounced off the opponent’s glass wall. The ball cannot be hit on the opponent's side through the net wall. \n" +
+    "The serve cannot be hit back instantly from the air, but only after the return of the serve, the ball may be hit directly from the air, " +
+    "after a bounce, either after a bounce from your own glass wall and directly from the air after it bounced off the opponent’s glass wall. " +
+    "The ball cannot be hit on the opponent's side through the net wall. \n" +
     "\n" +
     "During a ball rally, the ball may not touch the ground on the same side of the field more than once. \n" +
     "The game is played \n" +
     "\n" +
-    "until the ball gets stuck in the net, the ball falls onto your own side after hitting the net, the ball bounces twice off the ground on the same side of the field, or the ball hits the glass wall or net on the opponent's side before first touching the ground. ";
+    "until the ball gets stuck in the net, the ball falls onto your own side after hitting the net, " +
+    "the ball bounces twice off the ground on the same side of the field, or the ball hits the glass wall or net on the opponent's side before first touching the ground. ";
   document.getElementById("parkingInstructions").innerHTML = "PARKING PLACEHOLDER";
   document.getElementById("contactInfoTitle").innerHTML = "Contact Info";
 }
