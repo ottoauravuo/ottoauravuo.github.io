@@ -6,6 +6,7 @@ function changeHeaderLanguageENG(){
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "INTRO PLACEHOLDER";
   document.getElementById("whatsApp").innerHTML = "WHATSAPP PLACEHOLDER";
+  document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
   document.getElementById("padelRulesTitle").innerHTML = "TITLE PLACEHOLDER";
   document.getElementById("padelRules").innerHTML = "RULES PLACEHOLDER";
@@ -15,7 +16,7 @@ function changeBodyLanguageENG(){
 }
 
 function changeHeaderLanguageFIN(){
-  document.getElementById("title").innerHTML = "Skinnarilan Padel kenttä";
+  document.getElementById("title").innerHTML = "Skinnarilan Padel Kenttä";
   document.getElementById("socialMediaText").innerHTML = "Seuraa meitä";
 }
 
@@ -25,6 +26,7 @@ function changeBodyLanguageFIN(){
     "      hyvin sosiaalinen mailapeli. <br>Padel yhdistää kuntoilun, mielenkiintoisen pelin ja<br>\n" +
     "      sosiaalisuuden tavalla, johon hyvin harva urheilumuoto pystyy.";
   document.getElementById("whatsApp").innerHTML = "Liity Padel WhatsApp-ryhmään ja löydä pelikavereita!";
+  document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
   document.getElementById("padelRulesTitle").innerHTML = "Padelin säännöt:";
   document.getElementById("padelRules").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
