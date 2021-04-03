@@ -36,7 +36,7 @@ iframe {
   color: black;
   font-size: 40px;
   font-family: chivo, serif;
-  display: table;
+  display: inline;
 }
 
 
