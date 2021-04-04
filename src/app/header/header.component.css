@@ -24,7 +24,7 @@
 .socialMediaText {
   float: right;
   color: #fdc100;
-  padding-top: 20px;
+  padding-top: 28px;
   padding-right: 20px;
   font-family: chivo,serif;
 }
@@ -35,26 +35,17 @@
   text-align: center;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
 image{
   height: 50px;
   width: 50px;
 }
 
 .fa {
+  margin-top: 20px;
   padding: 15px;
   font-size: 20px;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   text-align: center;
   text-decoration: none;
 }
