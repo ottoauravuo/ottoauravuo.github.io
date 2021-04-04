@@ -86,8 +86,10 @@ image{
   width: 50px;
   float: right;
   top: 40%;
-  background-color: #fdc100;
+  background-image: url("src/assets/img/finFlag.jpg");
   margin-right: 0.5%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .engButton{
@@ -95,6 +97,8 @@ image{
   width: 50px;
   float: right;
   top: 40%;
-  background-color: #fdc100;
+  background-image: url("src/assets/img/engFlag.png");
   margin-right: 0.5%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
