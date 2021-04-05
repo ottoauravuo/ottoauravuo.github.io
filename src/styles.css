@@ -1,7 +1,5 @@
 body{
   background: black;
-  min-width: 950px;
-  min-height: 550px;
 }
 
 @font-face {
@@ -12,4 +10,9 @@ body{
 @font-face {
   font-family: "chivo";
   src: local("chivo"), url(assets/fonts/chivo/Chivo-Regular.otf) format("truetype");
+}
+@media only screen and (min-width: 1000px){
+  body{
+    background: #fdc100;
+  }
 }

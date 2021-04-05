@@ -1,7 +1,7 @@
 function changeHeaderLanguageENG(){
   document.getElementById("title").innerHTML = "Skinnarila Padel Field";
   document.getElementById("socialMediaText").innerHTML = "Follow us";
-
+  document.getElementById("smallSocialMediaText").innerHTML = "Follow us here";
 }
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "Padel is a racket game that combines the elements of tennis and squash. <br>" +
@@ -39,6 +39,7 @@ function changeBodyLanguageENG(){
 function changeHeaderLanguageFIN(){
   document.getElementById("title").innerHTML = "Skinnarilan Padel Kenttä";
   document.getElementById("socialMediaText").innerHTML = "Seuraa meitä";
+  document.getElementById("smallSocialMediaText").innerHTML = "Seuraa meitä";
 }
 
 function changeBodyLanguageFIN(){

@@ -11,6 +11,14 @@
   min-width: 1500px;
 }
 
+.title {
+  font-size: 50px;
+  font-family: chivo-medium, serif;
+  color: #fdc100;
+  float: right;
+  padding-right: 10%;
+}
+
 .headerSocial{
   float: right;
   padding-top: 20px;
@@ -65,11 +73,12 @@ image{
 }
 
 .title {
-  padding-left: 40%;
   font-size: 50px;
   font-family: chivo-medium, serif;
   color: #fdc100;
-  display: inline-block;
+  display: inline;
+  float: right;
+  padding-right: 10%;
 }
 
 .finButton{
@@ -92,4 +101,79 @@ image{
   margin-right: 0.5%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1200px){
+  .title {
+    font-size: 50px;
+    font-family: chivo-medium, serif;
+    color: #fdc100;
+    float: right;
+    padding-right: 10%;
+  }
+
+  .shortText{display: none;}
+  .fullText{display: inline;}
+
+}
+
+@media (max-width: 1200px){
+  .title {
+    font-size: 50px;
+    font-family: chivo-medium, serif;
+    color: #fdc100;
+    float: right;
+    padding-right: 10%;
+    display: none;
+  }
+
+  .shortText{display: inline;}
+  .fullText{display: none;}
+
+  .finButton{
+    height: 60px;
+    width: 90px;
+    float: left;
+    top: 32%;
+    background-image: url("src/assets/img/finFlag.jpg");
+    margin-left: 0.5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .engButton{
+    height: 60px;
+    width: 90px;
+    float: left;
+    top: 32%;
+    background-image: url("src/assets/img/engFlag.png");
+    margin-left: 3%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .headerSocial{
+    float: left;
+    padding-top: 20px;
+  }
+
+  .socialMediaText {
+    float: left;
+    color: #fdc100;
+    padding-top: 28px;
+    font-family: chivo,serif;
+    padding-left: 3%;
+    font-size: 35px;
+  }
+
+  .fa {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
 }
