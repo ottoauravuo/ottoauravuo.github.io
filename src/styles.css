@@ -11,9 +11,5 @@ body{
   font-family: "chivo";
   src: local("chivo"), url(assets/fonts/chivo/Chivo-Regular.otf) format("truetype");
 }
-@media only screen and (min-width: 1000px){
-  body{
-    background: #fdc100;
-  }
-}
+
 #more {display: none;}
