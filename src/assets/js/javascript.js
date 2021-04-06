@@ -10,7 +10,7 @@ function changeBodyLanguageENG(){
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
-  document.getElementById("padelRulesTitle").innerHTML = "<strong>Rules of the game: <button mat-raised-button onclick=\"myFunction()\" class=\"myBtn\" style=\"float: right;\height: 75px;\ width: 250px;\ font-size: 25px;\" id=\"myBtn\">Enemmän / More</button></strong>";
+  document.getElementById("padelRulesTitle").innerHTML = "<strong>Rules of the game: <button mat-raised-button onclick=\"myFunction()\" class=\"myBtn\" style=\"float: right;\height: 75px;\ width: 275px;\ font-size: 25px;\" id=\"myBtn\">Enemmän / More</button></strong>";
   document.getElementById("myBtn").innerHTML = "Enemmän / More";
   document.getElementById("padelRules").innerHTML = "<strong>Matches</strong> are always played in doubles and the best of the three sets wins. The first to win six games wins the round, after they have a lead with a difference of two rounds. At the beginning of the game<span id=\"dots\">...</span><span id=\"more\">, the teams decide which side they'll play. The orientation lasts until the half-game, after which the sides can be changed.\n" +
   "\n" +
@@ -51,7 +51,7 @@ function changeBodyLanguageFIN(){
   document.getElementById("whatsApp").innerHTML = "Liity Padel WhatsApp-ryhmään ja löydä pelikavereita!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
-  document.getElementById("padelRulesTitle").innerHTML = "<strong>Unohtuiko säännöt? <button mat-raised-button onclick=\"myFunction()\" class=\"myBtn\" style=\"float: right;\height: 75px;\ width: 250px;\ font-size: 25px;\" id=\"myBtn\">Enemmän / More</button></strong>";
+  document.getElementById("padelRulesTitle").innerHTML = "<strong>Unohtuiko säännöt? <button mat-raised-button onclick=\"myFunction()\" class=\"myBtn\" style=\"float: right;\height: 75px;\ width: 275px;\ font-size: 25px;\" id=\"myBtn\">Enemmän / More</button></strong>";
   document.getElementById("myBtn").innerHTML = "Enemmän / More";
   document.getElementById("padelRules").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää<span id=\"dots\">...</span><span id=\"more\"> erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
     "\n" +
