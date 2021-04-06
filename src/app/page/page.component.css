@@ -44,7 +44,8 @@ iframe {
 }
 
 .intro{
-  height: 800px;
+  padding-top: 110px;
+  height: 805px;
   width: auto;
 }
 
@@ -56,9 +57,9 @@ iframe {
   display: inline;
 }
 
-.padelRules{
+.rulesText{
   font-family: chivo, serif;
-  padding-bottom: 30px;
+  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,3)), to(rgba(0,0,0,0)))
 }
 
 .whatsApp{
