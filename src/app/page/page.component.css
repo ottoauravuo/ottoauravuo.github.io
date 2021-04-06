@@ -40,7 +40,6 @@ iframe {
   text-align: center;
   font-family: chivo-medium, serif;
   color: darkgrey;
-  text-align: center;
 }
 
 .intro{
@@ -59,7 +58,11 @@ iframe {
 
 .rulesText{
   font-family: chivo, serif;
-  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,3)), to(rgba(0,0,0,0)))
+  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,2)), to(rgba(0,0,0,0)))
+}
+
+.padelRulesTitle{
+  font-family: chivo, serif;
 }
 
 .whatsApp{
