@@ -5,6 +5,13 @@ mat-grid-tile {
   font-family: chivo, serif;
 }
 
+.mapAndRules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
+  height: 450px;
+  font-family: chivo, serif;
+}
+
 mat-card {
   text-align: left;
   width: auto;
