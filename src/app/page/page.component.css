@@ -26,6 +26,7 @@ mat-card {
   width: auto;
   height: auto;
   min-height: 300px;
+  border-radius: 0 !important;
 }
 
 iframe {
