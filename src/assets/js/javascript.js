@@ -11,7 +11,7 @@ function changeBodyLanguageENG(){
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Rules of the game:</strong>";
-  document.getElementById("padelRules").innerHTML = "<strong>Matches</strong> are always played in doubles and the best of the three sets wins. The first to win six games wins the round, after they have a lead with a difference of two rounds. At the beginning of the game, the teams decide which side they'll play. The orientation lasts until the half-game, after which the sides can be changed.\n" +
+  document.getElementById("padelRules").innerHTML = "<strong>Matches</strong> are always played in doubles and the best of the three sets wins. The first to win six games wins the round, after they have a lead with a difference of two rounds. At the beginning of the game<span id=\"dots\">...</span><span id=\"more\">, the teams decide which side they'll play. The orientation lasts until the half-game, after which the sides can be changed.\n" +
   "\n" +
   "      <br><br><strong>Scoring</strong> is the same as in tennis (15, 30, 40 and the game; in a draw 40-40, two consecutive points are needed for a team to win the game). When the game is tied 6-6, the winners are decided by playing a tiebreaker, which is played until seven points, however again, with a lead of two points.\n" +
   "\n" +
@@ -31,7 +31,7 @@ function changeBodyLanguageENG(){
   "\n" +
   "      <br><br><strong>Tie-break</strong> happens when the game is in a 6-6 situation. The serve in tie-break is made from the right-side square by the next player in the serve, who will hit for one point. After this, the serve is passed onto the opponent, who will hit for two points, from the opposite side's left square. The tie-break will go on until seven points are reached, with a two-point lead over the opponent. The serve changes every two points to the opponent and the first serve is always played from the second square.\n" +
   "\n" +
-  "      <br><br><strong>Hitting the ball off the field.</strong> If a player hits the ball onto the opponent's field and it bounces off the court, the batsman will usually win the point. However, in some cases, you can go and run out of the doorways to try and hit the ball back into the court and have it land on the opponent’s field.</p>";
+  "      <br><br><strong>Hitting the ball off the field.</strong> If a player hits the ball onto the opponent's field and it bounces off the court, the batsman will usually win the point. However, in some cases, you can go and run out of the doorways to try and hit the ball back into the court and have it land on the opponent’s field.</span></p>";
   document.getElementById("parkingInstructions").innerHTML = "PARKING PLACEHOLDER";
   document.getElementById("contactInfoTitle").innerHTML = "Contact Info";
 }
@@ -51,7 +51,7 @@ function changeBodyLanguageFIN(){
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Padelin säännöt:</strong>";
-  document.getElementById("padelRules").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
+  document.getElementById("padelRules").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää<span id=\"dots\">...</span><span id=\"more\"> erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
     "\n" +
     "      <br><br><strong>Pistelasku</strong> sama kuin tenniksessä (15, 30, 40 ja peli; tasatilanteessa 40-40 tarvitaan kaksi peräkkäistä pistettä pelin voittamiseksi). Pelien ollessa tasan 6-6, erävoitto ratkaistaan pelaamalla tie-break, joka pelataan 7 pisteeseen, kuitenkin kahden pisteen erolla.\n" +
     "\n" +
@@ -71,7 +71,23 @@ function changeBodyLanguageFIN(){
     "\n" +
     "      <br><br><strong>Tie-break.</strong> Aloitettaessa 6-6 pelitilanteessa tie-break, syötön aloittaa oikeanpuoleisesta ruudusta seuraavaksi syöttövuorossa oleva pelaaja, joka syöttää yhden pisteen. Tämän jälkeen syöttö siirtyy syöttövuorossa olevalle vastustajalle, joka syöttää kaksi pistettä, ensimmäisen vasemmanpuoleisesta ruudusta. Tie-break jatkuu 7 pisteeseen asti, kahden pisteen erolla. Syöttövuoro vaihtuu kahden pisteen välein vastustajalle ja ensimmäinen syöttö pelataan aina kakkosruudusta.\n" +
     "\n" +
-    "      <br><br><strong>Pallon lyöminen ulos kentältä.</strong> Jos pelaaja lyö pallon vastustajan kenttäpuoliskon kautta ulos kentältä, lyöjä voittaa yleensä pisteen. Pallon perään voi kuitenkin joissain tapauksissa juosta ulos oviaukoista lyödäkseen sen takaisin verkon yli vastustajan kenttäpuoliskolle.</p>";
+    "      <br><br><strong>Pallon lyöminen ulos kentältä.</strong> Jos pelaaja lyö pallon vastustajan kenttäpuoliskon kautta ulos kentältä, lyöjä voittaa yleensä pisteen. Pallon perään voi kuitenkin joissain tapauksissa juosta ulos oviaukoista lyödäkseen sen takaisin verkon yli vastustajan kenttäpuoliskolle.</span></p>";
   document.getElementById("parkingInstructions").innerHTML = "Parkkiohjeet ja miten saapua kentälle. (tulossa)";
   document.getElementById("contactInfoTitle").innerHTML = "Yhteystiedot";
+}
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
 }
