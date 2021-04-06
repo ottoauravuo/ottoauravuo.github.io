@@ -72,11 +72,22 @@ iframe {
   text-align: center;
 }
 
+.myBtn{
+  font-family: chivo, serif;
+}
+
 @media (max-width: 1200px){
   .mapAndRules {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
     height: 900px;
     font-family: chivo, serif;
+  }
+
+  .myBtn{
+    height: 75px;
+    width: 250px;
+    font-family: chivo, serif;
+    font-size: 25px;
   }
 }
