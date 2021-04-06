@@ -29,6 +29,10 @@ mat-card {
   border-radius: 0 !important;
 }
 
+.padelRules {
+  min-height: 0 !important;
+}
+
 iframe {
   min-width: fit-content;
 }
