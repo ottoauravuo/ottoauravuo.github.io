@@ -91,5 +91,10 @@ function myFunction() {
 
 function toggleFade() {
   var fade = document.getElementById("rulesText");
-  fade.classList.toggle("mystyle");
+  fade.classList.toggle("rulesTextFade");
+}
+
+function rulesClick() {
+  toggleFade();
+  myFunction();
 }
