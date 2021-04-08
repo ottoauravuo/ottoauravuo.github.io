@@ -4,7 +4,7 @@ function changeHeaderLanguageENG(){
   document.getElementById("smallSocialMediaText").innerHTML = "Follow us here";
 }
 function changeBodyLanguageENG(){
-  document.getElementById("introText").innerHTML = "Everyone to play some fking Padel!!!";
+  document.getElementById("introText").innerHTML = "<strong>Everyone to play some fking Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
@@ -41,7 +41,7 @@ function changeHeaderLanguageFIN(){
 }
 
 function changeBodyLanguageFIN(){
-  document.getElementById("introText").innerHTML = "Kaikki pelaamaan Padelia!";
+  document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan Padelia!</strong>";
   document.getElementById("whatsApp").innerHTML = "Liity Padel WhatsApp-ryhmään ja löydä pelikavereita!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
