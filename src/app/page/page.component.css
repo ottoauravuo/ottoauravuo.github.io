@@ -86,6 +86,7 @@ iframe {
 
 .myBtn{
   font-family: chivo, serif;
+  float: right;
 }
 
 @media (max-width: 1200px){
