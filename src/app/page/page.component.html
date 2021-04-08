@@ -21,8 +21,8 @@
 
 <div>
   <mat-card class="padelRules" style="background-color: #fdc100; font-size: 25px">
-    <p class="padelRulesTitle" id="padelRulesTitle" style="font-size: 35px; text-align: center"><strong>Unohtuiko säännöt?<button mat-raised-button onclick="myFunction()" class="myBtn" style="float: right;" id="myBtn">Enemmän / More</button></strong></p>
-    <p class="rulesText" id="padelRules"><strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.
+    <p class="padelRulesTitle" id="padelRulesTitle" style="font-size: 35px; text-align: center"><strong>Unohtuiko säännöt?<button mat-raised-button onclick="myFunction(); toggleFade();" class="myBtn" style="float: right;" id="myBtn">Enemmän / More</button></strong></p>
+    <p class="rulesText, rulesTextFade" id="rulesText"><strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.
       <br><br><strong>Pistelasku</strong> sama kuin tenniksessä (15, 30, 40 ja peli; tasatilanteessa 40-40 tarvitaan kaksi peräkkäistä pistettä pelin voittamiseksi). Pelien ollessa tasan 6-6, erävoitto ratkaistaan pelaamalla tie-break, joka pelataan 7 pisteeseen, kuitenkin kahden pisteen<span id="dots">...</span><span id="more">erolla.
       <br><br><strong>Pelin alussa pelataan aloituspallo.</strong>Syöttövuoron aloittaa aloituspallon voittanut pari. Aloituspallossa kunkin pelaajan on lyötävä pallo kerran vastustajan kenttäpuolelle, jonka jälkeen aloituspallon voittanut pari aloittaa ensimmäisen syöttövuoron tai valitsee kenttäpuolen.
       <br><br><strong>Syöttö</strong> alakautta: Pallo pompautetaan syöttöviivan takana, lyönti vyötärön alapuolelta verkon toiselle puolelle ristiin ruutuun. Syöttäjällä on käytössään kaksi syöttöä.

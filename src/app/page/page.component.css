@@ -60,8 +60,11 @@ iframe {
   display: inline;
 }
 
-.rulesText{
+.rulesText {
   font-family: chivo, serif;
+}
+
+.rulesTextFade {
   -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,2)), to(rgba(0,0,0,0)))
 }
 
