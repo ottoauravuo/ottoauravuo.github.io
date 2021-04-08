@@ -53,11 +53,10 @@ iframe {
 }
 
 .introText{
-  background-color: #f1f1f1;
-  color: black;
-  font-size: 40px;
+  color: #fdc100;
+  font-size: 50px;
   font-family: chivo, serif;
-  display: inline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .rulesText {
