@@ -73,18 +73,18 @@ function changeBodyLanguageFIN(){
   document.getElementById("contactInfoTitle").innerHTML = "Yhteystiedot";
 }
 
-function myFunction() {
+function rulesMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var resizeText = document.getElementById("rulesResize");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Enemmän / More";
+    resizeText.innerHTML = "Enemmän / More";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Vähemmän / Less";
+    resizeText.innerHTML = "Vähemmän / Less";
     moreText.style.display = "inline";
   }
 }
@@ -96,5 +96,5 @@ function toggleFade() {
 
 function rulesClick() {
   toggleFade();
-  myFunction();
+  rulesMore();
 }

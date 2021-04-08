@@ -84,7 +84,7 @@ iframe {
   text-align: center;
 }
 
-.myBtn{
+.rulesResize{
   font-family: chivo, serif;
   float: right;
 }
@@ -97,7 +97,7 @@ iframe {
     font-family: chivo, serif;
   }
 
-  .myBtn{
+  .rulesResize{
     height: 75px;
     width: 275px;
     font-family: chivo, serif;
