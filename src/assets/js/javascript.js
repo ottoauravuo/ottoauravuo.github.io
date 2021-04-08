@@ -8,7 +8,7 @@ function changeBodyLanguageENG(){
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
-  document.getElementById("padelRulesTitle").innerHTML = "<strong>Rules of the game:</strong>";
+  document.getElementById("padelRulesTitle").innerHTML = "<strong>Forgot the rules?</strong>";
   document.getElementById("myBtn").innerHTML = "Enemmän / More";
   document.getElementById("rulesText").innerHTML = "<strong>Matches</strong> are always played in doubles and the best of the three sets wins. The first to win six games wins the round, after they have a lead with a difference of two rounds. At the beginning of the game, the teams decide which side they'll play. The orientation lasts until the half-game, after which the sides can be changed.\n" +
   "\n" +
