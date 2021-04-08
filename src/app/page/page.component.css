@@ -76,8 +76,11 @@ iframe {
 .whatsApp{
   font-family: chivo, serif;
   text-align: center;
-  background: -webkit-linear-gradient(linear, left 60%,(rgba(0,0,0,0))), url("src/assets/img/padelbg.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/assets/img/padelbg.png");
   background-size: 100% 100%;
+  font-size: 25px;
+  color: lightgray;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .timmi{
