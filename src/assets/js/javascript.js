@@ -4,9 +4,7 @@ function changeHeaderLanguageENG(){
   document.getElementById("smallSocialMediaText").innerHTML = "Follow us here";
 }
 function changeBodyLanguageENG(){
-  document.getElementById("introText").innerHTML = "Padel is a racket game that combines the elements of tennis and squash. <br>" +
-    "Since Padel is always played as a team game, <br> it is a very social game by nature. <br> Padel can combine fitness, exciting gaming, " +
-    "and social <br>interaction in a way few sports games manage.";
+  document.getElementById("introText").innerHTML = "Everyone to play some fking Padel!!!";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
@@ -44,10 +42,7 @@ function changeHeaderLanguageFIN(){
 }
 
 function changeBodyLanguageFIN(){
-  document.getElementById("introText").innerHTML = "Padel on mailapeli, jossa yhdistyy tenniksen ja squashin ominaisuuksia.<br>\n" +
-    "      Koska Padelia pelataan aina nelinpelinä, on se sitä kautta luonteeltaan<br>\n" +
-    "      hyvin sosiaalinen mailapeli. <br>Padel yhdistää kuntoilun, mielenkiintoisen pelin ja<br>\n" +
-    "      sosiaalisuuden tavalla, johon hyvin harva urheilumuoto pystyy.";
+  document.getElementById("introText").innerHTML = "Kaikki pelaamaan Padelia!";
   document.getElementById("whatsApp").innerHTML = "Liity Padel WhatsApp-ryhmään ja löydä pelikavereita!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
