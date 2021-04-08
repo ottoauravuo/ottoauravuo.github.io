@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   transition: 0.2s;
-  min-width: 1600px;
+  min-width: 1200px;
 }
 
 .title {
@@ -104,7 +104,7 @@ image{
   background-repeat: no-repeat;
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1575px){
   .title {
     font-size: 50px;
     font-family: chivo-medium, serif;
@@ -113,23 +113,23 @@ image{
     padding-right: 10%;
   }
 
-  .shortText{display: none;}
   .fullText{display: inline;}
+  .mediumText{display: none;}
+  .shortText{display: none;}
+}
 
+@media only screen and (min-width: 1200px) and (max-width: 1575px) {
+
+  .fullText{display: none;}
+  .mediumText{display: inline;}
+  .shortText{display: none;}
 }
 
 @media (max-width: 1200px){
-  .title {
-    font-size: 50px;
-    font-family: chivo-medium, serif;
-    color: #fdc100;
-    float: right;
-    padding-right: 10%;
-    display: none;
-  }
 
-  .shortText{display: inline;}
   .fullText{display: none;}
+  .mediumText{display: none;}
+  .shortText{display: inline;}
 
   .finButton{
     height: 60px;

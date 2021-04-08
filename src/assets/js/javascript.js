@@ -1,7 +1,8 @@
 function changeHeaderLanguageENG(){
   document.getElementById("title").innerHTML = "Skinnarila Padel Field";
   document.getElementById("socialMediaText").innerHTML = "Follow us";
-  document.getElementById("smallSocialMediaText").innerHTML = "Follow us here";
+  document.getElementById("mediumSocialMediaText").innerHTML = "Follow us";
+  document.getElementById("smallSocialMediaText").innerHTML = "Follow us";
 }
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Everyone to play some fking Padel!</strong>";
@@ -37,6 +38,7 @@ function changeBodyLanguageENG(){
 function changeHeaderLanguageFIN(){
   document.getElementById("title").innerHTML = "Skinnarilan Padel Kenttä";
   document.getElementById("socialMediaText").innerHTML = "Seuraa meitä";
+  document.getElementById("mediumSocialMediaText").innerHTML = "Seuraa meitä";
   document.getElementById("smallSocialMediaText").innerHTML = "Seuraa meitä";
 }
 
