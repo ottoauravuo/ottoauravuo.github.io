@@ -9,7 +9,6 @@ function changeBodyLanguageENG(){
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Forgot the rules?</strong>";
-  document.getElementById("myBtn").innerHTML = "Enemmän / More";
   document.getElementById("rulesText").innerHTML = "<strong>Matches</strong> are always played in doubles and the best of the three sets wins. The first to win six games wins the round, after they have a lead with a difference of two rounds. At the beginning of the game, the teams decide which side they'll play. The orientation lasts until the half-game, after which the sides can be changed.\n" +
   "\n" +
   "      <br><br><strong>Scoring</strong> is the same as in tennis (15, 30, 40 and the game; in a draw 40-40, two consecutive points are needed for a team to win the game). When the game is tied 6-6, the winners are decided by playing a tiebreaker, which is played until seven points, however again, with a lead of<span id=\"dots\">...</span><span id=\"more\"> two points.\n" +
@@ -47,7 +46,6 @@ function changeBodyLanguageFIN(){
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Unohtuiko säännöt?</strong>";
-  document.getElementById("myBtn").innerHTML = "Enemmän / More";
   document.getElementById("rulesText").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
     "\n" +
     "      <br><br><strong>Pistelasku</strong> sama kuin tenniksessä (15, 30, 40 ja peli; tasatilanteessa 40-40 tarvitaan kaksi peräkkäistä pistettä pelin voittamiseksi). Pelien ollessa tasan 6-6, erävoitto ratkaistaan pelaamalla tie-break, joka pelataan 7 pisteeseen, kuitenkin kahden pisteen<span id=\"dots\">...</span><span id=\"more\"> erolla.\n" +
