@@ -2,7 +2,7 @@
   background-color: black;
   text-align: left;
   height: 110px;
-  width: 100%;
+  width: 101%;
   font-size: 14px;
   margin: -9px;
   position: fixed;
@@ -99,7 +99,7 @@ image{
   float: right;
   top: 40%;
   background-image: url("src/assets/img/engFlag.png");
-  margin-right: 0.5%;
+  margin-right: 1.2%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
