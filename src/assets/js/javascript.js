@@ -5,10 +5,12 @@ function changeHeaderLanguageENG(){
   document.getElementById("smallSocialMediaText").innerHTML = "Follow us";
 }
 function changeBodyLanguageENG(){
-  document.getElementById("introText").innerHTML = "<strong>Let's play some Padel!</strong>";
+  document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
+  document.getElementById("rulesResize").innerHTML = "Enemmän / More";
+  document.getElementById("rulesText").classList.add("rulesTextFade");
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Forgot the rules?</strong>";
   document.getElementById("rulesText").innerHTML = "<strong>Matches</strong> are always played in doubles and the best of the three sets wins. The first to win six games wins the round, after they have a lead with a difference of two rounds. At the beginning of the game, the teams decide which side they'll play. The orientation lasts until the half-game, after which the sides can be changed.\n" +
   "\n" +
@@ -43,10 +45,12 @@ function changeHeaderLanguageFIN(){
 }
 
 function changeBodyLanguageFIN(){
-  document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan Padelia!</strong>";
-  document.getElementById("whatsApp").innerHTML = "Liity Padel WhatsApp-ryhmään ja löydä pelikavereita!";
+  document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan<br> Padelia!</strong>";
+  document.getElementById("whatsApp").innerHTML = "Olit sitten uusi lajin harrastaja tai vanha konkari, liittymällä WhatsApp ryhmään löydät varmasti pelikavereita!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
   document.getElementById("timmi").innerHTML = "Timmin käyttöohjeet (tulossa)";
+  document.getElementById("rulesResize").innerHTML = "Enemmän / More";
+  document.getElementById("rulesText").classList.add("rulesTextFade");
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Unohtuiko säännöt?</strong>";
   document.getElementById("rulesText").innerHTML = "<strong>Ottelut</strong> pelataan aina nelinpelinä ja paras kolmesta erästä voittaa. Ensimmäinen kuusi peliä voittanut voittaa erän, kun heillä on kahden erän erotus. Pelaajapari päättää erän alussa kumpaa puolta kumpikin pelaa. Puoli säilyy erän loppuun asti, jonka jälkeen puolta voi vaihtaa.\n" +
     "\n" +
@@ -82,19 +86,11 @@ function rulesMore() {
     dots.style.display = "inline";
     resizeText.innerHTML = "Enemmän / More";
     moreText.style.display = "none";
+    document.getElementById("rulesText").classList.add("rulesTextFade");
   } else {
     dots.style.display = "none";
     resizeText.innerHTML = "Vähemmän / Less";
     moreText.style.display = "inline";
+    document.getElementById("rulesText").classList.remove("rulesTextFade");
   }
-}
-
-function toggleFade() {
-  var fade = document.getElementById("rulesText");
-  fade.classList.toggle("rulesTextFade");
-}
-
-function rulesClick() {
-  toggleFade();
-  rulesMore();
 }
