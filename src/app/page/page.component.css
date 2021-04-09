@@ -71,6 +71,7 @@ iframe {
 
 .padelRulesTitle{
   font-family: chivo, serif;
+  font-size: 35px;
 }
 
 .whatsApp{
@@ -94,13 +95,15 @@ iframe {
 .rulesResize{
   font-family: chivo, serif;
   float: right;
-  background: lightgray;
+  background: whitesmoke;
   border: 2px solid gray !important;
-  width: 230px;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
 }
 
 .rulesResize:hover{
-  background: floralwhite;
+  background: lightgray;
 }
 
 @media (max-width: 1200px){
@@ -112,9 +115,13 @@ iframe {
   }
 
   .rulesResize{
-    height: 75px;
-    width: 275px;
+    height: 65px;
+    width: 380px;
     font-family: chivo, serif;
     font-size: 25px;
+  }
+
+  .padelRulesTitle{
+    font-size: 50px;
   }
 }
