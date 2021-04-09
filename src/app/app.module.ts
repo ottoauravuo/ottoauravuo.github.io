@@ -6,6 +6,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { HeaderComponent } from './header/header.component';
 import {MatButtonModule} from '@angular/material/button';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     PageComponent,
     HeaderComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

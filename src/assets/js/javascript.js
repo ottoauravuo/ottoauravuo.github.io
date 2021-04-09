@@ -5,7 +5,7 @@ function changeHeaderLanguageENG(){
   document.getElementById("smallSocialMediaText").innerHTML = "Follow us";
 }
 function changeBodyLanguageENG(){
-  document.getElementById("introText").innerHTML = "<strong>Everyone to play some fking Padel!</strong>";
+  document.getElementById("introText").innerHTML = "<strong>Let's play some Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmi").innerHTML = "TIMMI PLACEHOLDER";
