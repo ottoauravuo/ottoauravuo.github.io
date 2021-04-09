@@ -95,7 +95,7 @@ iframe {
 .rulesResize{
   font-family: chivo, serif;
   float: right;
-  background: whitesmoke;
+  background: lightgray;
   border: 2px solid gray !important;
   width: 400px;
   height: 50px;
@@ -103,7 +103,7 @@ iframe {
 }
 
 .rulesResize:hover{
-  background: lightgray;
+  background: antiquewhite;
 }
 
 @media (max-width: 1200px){
