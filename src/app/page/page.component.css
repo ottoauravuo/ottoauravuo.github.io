@@ -94,8 +94,9 @@ iframe {
   width: 500px;
 }
 
-.timmiPicture {
-  float: top;
+.column {
+  float: left;
+  width: 50%;
 }
 
 .rulesResize{
