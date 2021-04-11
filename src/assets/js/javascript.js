@@ -8,7 +8,7 @@ function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
-  document.getElementById("timmiText").innerHTML = "You can make a reservation here: timmi4.lappeenranta.fi. You can only make reservations through Timmi. Unfortunately the site is only available in Finnish.  \n" +
+  document.getElementById("timmiText").innerHTML = "You can make a reservation here: timmi4.lappeenranta.fi. You can only make reservations through Timmi. Unfortunately the site is only available in Finnish. <br> <br> \n" +
     "\n" +
    "How to make a reservation: Liikuntatoimi --> Log in/register --> Varauskalenteri --> Search for: Skinnarilan Padelkenttä --> Pick your preferred time and fill in the required info.";
   document.getElementById("rulesResize").innerHTML = "Näytä enemmän / Show more";
