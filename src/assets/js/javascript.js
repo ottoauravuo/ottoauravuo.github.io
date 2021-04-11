@@ -40,7 +40,7 @@ function changeBodyLanguageENG(){
 }
 
 function changeHeaderLanguageFIN(){
-  document.getElementById("title").innerHTML = "Skinnarilan Padel Kenttä";
+  document.getElementById("title").innerHTML = "Skinnarilan Padelkenttä";
   document.getElementById("socialMediaText").innerHTML = "Seuraa meitä";
   document.getElementById("mediumSocialMediaText").innerHTML = "Seuraa meitä";
   document.getElementById("smallSocialMediaText").innerHTML = "Seuraa meitä";
@@ -50,9 +50,9 @@ function changeBodyLanguageFIN(){
   document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan<br> Padelia!</strong>";
   document.getElementById("whatsApp").innerHTML = "Olit sitten uusi lajin harrastaja tai vanha konkari, liittymällä WhatsApp ryhmään löydät varmasti pelikavereita!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
-  document.getElementById("timmiText").innerHTML = "Voit varata kentän itsellesi ja pelikavereillesi sivulta: timmi4.lappeenranta.fi. Ajanvaraus Skinnarilan Padelkentälle toimii vain Timmin kautta. \n" +
+  document.getElementById("timmiText").innerHTML = "Voit varata kentän itsellesi ja pelikavereillesi sivulta: timmi4.lappeenranta.fi. Ajanvaraus Skinnarilan Padelkentälle toimii vain Timmin kautta. <br><br> \n" +
     "\n" +
-    "Ajanvaraus: Liikuntatoimi --> kirjaudu/rekisteröidy --> Varauskalenteri --> Hae: Skinnarilan Padelkenttä --> Klikkaa haluaamasi aikaa ja täytä tiedot.";
+    "Ajanvaraus: Liikuntatoimi --> Kirjaudu/Rekisteröidy --> Varauskalenteri --> Hae: Skinnarilan Padelkenttä --> Klikkaa haluaamasi aikaa ja täytä tiedot.";
   document.getElementById("rulesResize").innerHTML = "Näytä enemmän / Show more";
   document.getElementById("rulesText").classList.add("rulesTextFade");
   document.getElementById("padelRulesTitle").innerHTML = "<strong>Unohtuiko säännöt?</strong>";
