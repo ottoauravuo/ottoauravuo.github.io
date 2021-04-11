@@ -8,7 +8,7 @@ function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
-  document.getElementById("timmi").innerHTML = "You can make a reservation here: timmi4.lappeenranta.fi. You can only make reservations through Timmi. Unfortunately the site is only available in Finnish.  \n" +
+  document.getElementById("timmiText").innerHTML = "You can make a reservation here: timmi4.lappeenranta.fi. You can only make reservations through Timmi. Unfortunately the site is only available in Finnish.  \n" +
     "\n" +
    "How to make a reservation: Liikuntatoimi --> Log in/register --> Varauskalenteri --> Search for: Skinnarilan Padelkenttä --> Pick your preferred time and fill in the required info.";
   document.getElementById("rulesResize").innerHTML = "Näytä enemmän / Show more";
@@ -50,7 +50,7 @@ function changeBodyLanguageFIN(){
   document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan<br> Padelia!</strong>";
   document.getElementById("whatsApp").innerHTML = "Olit sitten uusi lajin harrastaja tai vanha konkari, liittymällä WhatsApp ryhmään löydät varmasti pelikavereita!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
-  document.getElementById("timmi").innerHTML = "Voit varata kentän itsellesi ja pelikavereillesi sivulta: timmi4.lappeenranta.fi. Ajanvaraus Skinnarilan Padelkentälle toimii vain Timmin kautta. \n" +
+  document.getElementById("timmiText").innerHTML = "Voit varata kentän itsellesi ja pelikavereillesi sivulta: timmi4.lappeenranta.fi. Ajanvaraus Skinnarilan Padelkentälle toimii vain Timmin kautta. \n" +
     "\n" +
     "Ajanvaraus: Liikuntatoimi --> kirjaudu/rekisteröidy --> Varauskalenteri --> Hae: Skinnarilan Padelkenttä --> Klikkaa haluaamasi aikaa ja täytä tiedot.";
   document.getElementById("rulesResize").innerHTML = "Näytä enemmän / Show more";
