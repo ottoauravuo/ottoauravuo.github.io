@@ -127,6 +127,11 @@ iframe {
   background: antiquewhite;
 }
 
+.parkingInstructions{
+  text-align: center;
+  font-size: 30px
+}
+
 @media (min-width: 1200px) and (max-width: 1579px){
   .timmiPicture{
     float: left;
@@ -139,6 +144,10 @@ iframe {
 }
 
 @media (max-width: 1200px){
+  .parkingInstructions{
+    font-size: 50px;
+  }
+
   .mapAndRules {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(765px, 1fr));
