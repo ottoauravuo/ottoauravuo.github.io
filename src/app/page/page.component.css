@@ -187,10 +187,6 @@ iframe {
     margin-top: 400px;
     min-height: 400px;
   }
-
-  .parking{
-    height: 600px;
-  }
 }
 
 @media (max-width: 1200px){

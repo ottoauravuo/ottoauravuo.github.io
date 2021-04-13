@@ -35,7 +35,10 @@ function changeBodyLanguageENG(){
   "      <br><br><strong>Tie-break</strong> happens when the game is in a 6-6 situation. The serve in tie-break is made from the right-side square by the next player in the serve, who will hit for one point. After this, the serve is passed onto the opponent, who will hit for two points, from the opposite side's left square. The tie-break will go on until seven points are reached, with a two-point lead over the opponent. The serve changes every two points to the opponent and the first serve is always played from the second square.\n" +
   "\n" +
   "      <br><br><strong>Hitting the ball off the field.</strong> If a player hits the ball onto the opponent's field and it bounces off the court, the batsman will usually win the point. However, in some cases, you can go and run out of the doorways to try and hit the ball back into the court and have it land on the opponent’s field.</span></p>";
-  document.getElementById("parkingInstructions").innerHTML = "PARKING PLACEHOLDER";
+  document.getElementById("parkingHeader").innerHTML = "Liikutko autolla...?";
+  document.getElementById("parkingText").innerHTML = "Pysäköinti on sallittu vain merkityillä pysäköintialueilla.\n" +
+    "      Maksuttomia pysäköintialueita ovat P4- ja P8-alueiden tolpattomat paikat sekä P4-alueen tolppapaikat kausipysäköinnin 1.11.–31.3. ulkopuolella. <br><br>\n" +
+    "      Kiekkopaikoilla saa pysäköidä kolme tuntia kerrallaan. Vieraspaikoille pysäköidessä täytyy soittaa P-alueen kyltissä olevaan numeroon luvan saamiseksi.....";
   document.getElementById("contactInfoTitle").innerHTML = "Contact Info";
 }
 
@@ -77,7 +80,7 @@ function changeBodyLanguageFIN(){
     "      <br><br><strong>Tie-break.</strong> Aloitettaessa 6-6 pelitilanteessa tie-break, syötön aloittaa oikeanpuoleisesta ruudusta seuraavaksi syöttövuorossa oleva pelaaja, joka syöttää yhden pisteen. Tämän jälkeen syöttö siirtyy syöttövuorossa olevalle vastustajalle, joka syöttää kaksi pistettä, ensimmäisen vasemmanpuoleisesta ruudusta. Tie-break jatkuu 7 pisteeseen asti, kahden pisteen erolla. Syöttövuoro vaihtuu kahden pisteen välein vastustajalle ja ensimmäinen syöttö pelataan aina kakkosruudusta.\n" +
     "\n" +
     "      <br><br><strong>Pallon lyöminen ulos kentältä.</strong> Jos pelaaja lyö pallon vastustajan kenttäpuoliskon kautta ulos kentältä, lyöjä voittaa yleensä pisteen. Pallon perään voi kuitenkin joissain tapauksissa juosta ulos oviaukoista lyödäkseen sen takaisin verkon yli vastustajan kenttäpuoliskolle.</span></p>";
-  document.getElementById("parkingHeader").innerHTML = "Liikutko autolla?"
+  document.getElementById("parkingHeader").innerHTML = "Liikutko autolla?";
   document.getElementById("parkingText").innerHTML = "Pysäköinti on sallittu vain merkityillä pysäköintialueilla.\n" +
     "      Maksuttomia pysäköintialueita ovat P4- ja P8-alueiden tolpattomat paikat sekä P4-alueen tolppapaikat kausipysäköinnin 1.11.–31.3. ulkopuolella. <br><br>\n" +
     "      Kiekkopaikoilla saa pysäköidä kolme tuntia kerrallaan. Vieraspaikoille pysäköidessä täytyy soittaa P-alueen kyltissä olevaan numeroon luvan saamiseksi.";
