@@ -6,7 +6,7 @@ function changeHeaderLanguageENG(){
 }
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
-  document.getElementById("whatsApp").innerHTML = "Looking for people to play with? Join our WhatsApp group!";
+  document.getElementById("whatsApp").innerHTML = "Looking for people to play Padel with? Join our WhatsApp group!";
   document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
   document.getElementById("timmiText").innerHTML = "You can make a reservation here: timmi4.lappeenranta.fi. You can only make reservations through Timmi. Unfortunately the site is only available in Finnish. <br> <br> \n" +
     "\n" +
@@ -77,7 +77,10 @@ function changeBodyLanguageFIN(){
     "      <br><br><strong>Tie-break.</strong> Aloitettaessa 6-6 pelitilanteessa tie-break, syötön aloittaa oikeanpuoleisesta ruudusta seuraavaksi syöttövuorossa oleva pelaaja, joka syöttää yhden pisteen. Tämän jälkeen syöttö siirtyy syöttövuorossa olevalle vastustajalle, joka syöttää kaksi pistettä, ensimmäisen vasemmanpuoleisesta ruudusta. Tie-break jatkuu 7 pisteeseen asti, kahden pisteen erolla. Syöttövuoro vaihtuu kahden pisteen välein vastustajalle ja ensimmäinen syöttö pelataan aina kakkosruudusta.\n" +
     "\n" +
     "      <br><br><strong>Pallon lyöminen ulos kentältä.</strong> Jos pelaaja lyö pallon vastustajan kenttäpuoliskon kautta ulos kentältä, lyöjä voittaa yleensä pisteen. Pallon perään voi kuitenkin joissain tapauksissa juosta ulos oviaukoista lyödäkseen sen takaisin verkon yli vastustajan kenttäpuoliskolle.</span></p>";
-  document.getElementById("parkingInstructions").innerHTML = "Parkkiohjeet ja miten saapua kentälle. (tulossa)";
+  document.getElementById("parkingHeader").innerHTML = "Liikutko autolla?"
+  document.getElementById("parkingText").innerHTML = "Pysäköinti on sallittu vain merkityillä pysäköintialueilla.\n" +
+    "      Maksuttomia pysäköintialueita ovat P4- ja P8-alueiden tolpattomat paikat sekä P4-alueen tolppapaikat kausipysäköinnin 1.11.–31.3. ulkopuolella. <br><br>\n" +
+    "      Kiekkopaikoilla saa pysäköidä kolme tuntia kerrallaan. Vieraspaikoille pysäköidessä täytyy soittaa P-alueen kyltissä olevaan numeroon luvan saamiseksi.";
   document.getElementById("contactInfoTitle").innerHTML = "Yhteystiedot";
 }
 

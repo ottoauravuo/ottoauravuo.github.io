@@ -5,27 +5,50 @@ mat-grid-tile {
   font-family: chivo, serif;
 }
 
+.parkingHeader{
+  text-align: center;
+}
+
+.parkingInstructions{
+  background: silver;
+  font-family: chivo, serif;
+  font-size: 30px;
+}
+
 .mapAndRules {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(765px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(786px, 1fr));
   width: 100%;
-  height: 450px;
+  max-height: 500px;
   font-family: chivo, serif;
 }
 
-.parkingInstructions {
-  width: 100%;
+.mapLocation {
+  max-width: 100%;
+  max-height: 500px;
+  overflow: hidden;
 }
 
-.mapLocation {
-  width: 99.5%;
+.map{
+  width: 100%;
+  height: 100%;
+}
+
+.parking{
+  width: 100%;
+  height: 100%;
+}
+
+.parkingImg{
+  max-width: 100%;
+  max-height: 500px;
 }
 
 mat-card {
   text-align: left;
   width: auto;
   height: auto;
-  min-height: 300px;
+  min-height: 200px;
   border-radius: 0 !important;
 }
 
@@ -38,9 +61,15 @@ iframe {
 }
 
 .contactInfo{
-  height: auto;
   width: auto;
-  background-color: black;
+  height: auto;
+  text-align: center;
+  font-family: chivo-medium, serif;
+  color: floralwhite;
+  background: black;
+}
+
+.contactCard{
   text-align: center;
   font-family: chivo-medium, serif;
   color: floralwhite;
@@ -88,7 +117,7 @@ iframe {
   background: lightgrey;
   min-height: 500px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(765px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(786px, 1fr));
 }
 
 .timmiText{
@@ -127,32 +156,51 @@ iframe {
   background: antiquewhite;
 }
 
-.parkingInstructions{
-  text-align: center;
-  font-size: 30px
+@media (min-width: 1200px){
+  .parkingPhone{
+    display: none;
+  }
+
 }
 
-@media (min-width: 1200px) and (max-width: 1579px){
+@media (min-width: 1200px) and (max-width: 1589px){
   .timmiPicture{
     float: left;
     padding-left: 28%;
   }
 
+  .map{
+    width: 100%;
+    height: 100%;
+  }
+
   .mapLocation {
-    width: 99.7%;
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .mapAndRules {
+    height: 1100px;
+  }
+
+  .contactInfo{
+    margin-top: 400px;
+    min-height: 400px;
+  }
+
+  .parking{
+    height: 600px;
   }
 }
 
 @media (max-width: 1200px){
-  .parkingInstructions{
-    font-size: 50px;
+  .contactInfo{
+    margin-top: 400px;
+    min-height: 400px;
   }
 
   .mapAndRules {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(765px, 1fr));
-    height: 900px;
-    font-family: chivo, serif;
+    height: 1000px;
   }
 
   .rulesResize{
@@ -176,7 +224,16 @@ iframe {
   }
 
   .mapLocation {
-    width: 99.6%;
+    width: 100%;
+    min-height: 400px;
   }
 
+  .parking{
+    display: none;
+  }
+
+  .parkingPhone{
+    width: 100%;
+    height: 100%;
+  }
 }
