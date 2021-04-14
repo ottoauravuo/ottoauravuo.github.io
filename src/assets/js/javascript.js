@@ -103,21 +103,4 @@ function rulesMore() {
     moreText.style.display = "inline";
     document.getElementById("rulesText").classList.remove("rulesTextFade");
   }
-
-  function initMap() {
-    const myLatLng = {
-      lat: 61.06533333,
-      lng: 28.09750000
-    };
-    const map = new google.maps.Map(document.getElementById("mapLocation"), {
-      zoom: 18,
-      center: myLatLng,
-    });
-    new google.maps.Marker({
-      position: myLatLng,
-      map,
-      title: "Skinnarilan Padel-kenttä",
-    });
-  }
-
 }
