@@ -7,8 +7,8 @@ function changeHeaderLanguageENG(){
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play Padel with? Join our WhatsApp group!";
-  document.getElementById("whatsAppLink").innerHTML = "WHATSAPPLINK PLACEHOLDER";
-  document.getElementById("timmiText").innerHTML = "You can make a reservation here: timmi4.lappeenranta.fi. You can only make reservations through Timmi. Unfortunately the site is only available in Finnish. <br> <br> \n" +
+  document.getElementById("whatsAppLink").innerHTML = "Link for the WhatsApp-group: <a style='font-size: 50px; color:white' href='https://chat.whatsapp.com/DhrUilT7DuhKwryJxkOnYD'><span>HERE</span></a>";
+  document.getElementById("timmiText").innerHTML = "You can make a reservation here: <a style='color:white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;' href='https://www.timmi4.lappeenranta.fi'>timmi4.lappeenranta.fi</a> . You can only make reservations through Timmi. Unfortunately the site is only available in Finnish. <br> <br> \n" +
     "\n" +
    "How to make a reservation: Liikuntatoimi --> Log in/register --> Varauskalenteri --> Search for: Skinnarilan Padelkenttä --> Pick your preferred time and fill in the required info.";
   document.getElementById("rulesResize").innerHTML = "Näytä enemmän / Show more";
@@ -35,14 +35,14 @@ function changeBodyLanguageENG(){
   "      <br><br><strong>Tie-break</strong> happens when the game is in a 6-6 situation. The serve in tie-break is made from the right-side square by the next player in the serve, who will hit for one point. After this, the serve is passed onto the opponent, who will hit for two points, from the opposite side's left square. The tie-break will go on until seven points are reached, with a two-point lead over the opponent. The serve changes every two points to the opponent and the first serve is always played from the second square.\n" +
   "\n" +
   "      <br><br><strong>Hitting the ball off the field.</strong> If a player hits the ball onto the opponent's field and it bounces off the court, the batsman will usually win the point. However, in some cases, you can go and run out of the doorways to try and hit the ball back into the court and have it land on the opponent’s field.</span></p>";
-  document.getElementById("parkingHeader").innerHTML = "Liikutko autolla...?";
-  document.getElementById("parkingText").innerHTML = "Pysäköinti on sallittu vain merkityillä pysäköintialueilla.\n" +
-    "      Maksuttomia pysäköintialueita ovat P4- ja P8-alueiden tolpattomat paikat sekä P4-alueen tolppapaikat kausipysäköinnin 1.11.–31.3. ulkopuolella. <br><br>\n" +
-    "      Kiekkopaikoilla saa pysäköidä kolme tuntia kerrallaan. Vieraspaikoille pysäköidessä täytyy soittaa P-alueen kyltissä olevaan numeroon luvan saamiseksi.....";
+  document.getElementById("parkingHeader").innerHTML = "Moving by car...?";
+  document.getElementById("parkingText").innerHTML = "Parking is only allowed in the deginated areas.\n" +
+    "      You can freely park in the spots without heating poles in P4 and P8. Outside of 1.11. to 31.3. you are also allowed to freely use the spots with heating in P4.<br><br>\n" +
+    "      For spots that require a parking disc, you are allowed to park for 3 hours at a time. If you wish to park on the designated guest spots, you must call the numbers shown on the P-sign and ask for permission.";
   document.getElementById("contactInfoTitle").innerHTML = "Contact Info";
 }
 
-function changeHeaderLanguageFIN(){
+function changeHeaderLanguageFIN() {
   document.getElementById("title").innerHTML = "Skinnarilan Padelkenttä";
   document.getElementById("socialMediaText").innerHTML = "Seuraa meitä";
   document.getElementById("mediumSocialMediaText").innerHTML = "Seuraa meitä";
@@ -51,9 +51,9 @@ function changeHeaderLanguageFIN(){
 
 function changeBodyLanguageFIN(){
   document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan<br> Padelia!</strong>";
-  document.getElementById("whatsApp").innerHTML = "Olit sitten uusi lajin harrastaja tai vanha konkari, liittymällä WhatsApp ryhmään löydät varmasti pelikavereita!";
-  document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: toBEMaDe@WhatsAPP";
-  document.getElementById("timmiText").innerHTML = "Voit varata kentän itsellesi ja pelikavereillesi sivulta: timmi4.lappeenranta.fi. Ajanvaraus Skinnarilan Padelkentälle toimii vain Timmin kautta. <br><br> \n" +
+  document.getElementById("whatsApp").innerHTML = "Etsitkö pelikavereita? Liity meidän WhatsApp-ryhmään!";
+  document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: <a style=\"font-size: 50px; color:white\" href=\"https://chat.whatsapp.com/DhrUilT7DuhKwryJxkOnYD\"><span>TÄSTÄ</span></a></a>";
+  document.getElementById("timmiText").innerHTML = "Voit varata kentän itsellesi ja pelikavereillesi sivulta: <a style='color:white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;' href='https://www.timmi4.lappeenranta.fi'>timmi4.lappeenranta.fi</a> . Ajanvaraus Skinnarilan Padelkentälle toimii vain Timmin kautta. <br><br> \n" +
     "\n" +
     "Ajanvaraus: Liikuntatoimi --> Kirjaudu/Rekisteröidy --> Varauskalenteri --> Hae: Skinnarilan Padelkenttä --> Klikkaa haluaamasi aikaa ja täytä tiedot.";
   document.getElementById("rulesResize").innerHTML = "Näytä enemmän / Show more";
@@ -104,3 +104,15 @@ function rulesMore() {
     document.getElementById("rulesText").classList.remove("rulesTextFade");
   }
 }
+
+var egg = new Egg();
+egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
+    jQuery('#egggif').fadeIn(500, function() {
+      window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+    });
+  }, "konami-code");
+  egg.addHook(function(){
+    console.log("Hook called for: " + this.activeEgg.keys);
+    console.log(this.activeEgg.metadata);
+  });
+  egg.listen();

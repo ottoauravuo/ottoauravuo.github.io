@@ -10,7 +10,7 @@ mat-grid-tile {
 }
 
 .parkingInstructions{
-  background: silver;
+  background: lightgray;
   font-family: chivo, serif;
   font-size: 30px;
 }
@@ -232,4 +232,11 @@ iframe {
     width: 100%;
     height: 100%;
   }
+}
+
+#egggif {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  display: none;
 }
