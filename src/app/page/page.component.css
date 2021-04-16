@@ -1,3 +1,4 @@
+/*Basic layout for the boxes and font*/
 mat-grid-tile {
   text-align: left;
   width: auto;
@@ -5,76 +6,19 @@ mat-grid-tile {
   font-family: chivo, serif;
 }
 
-.parkingHeader{
-  text-align: center;
-}
-
-.parkingInstructions{
-  background: lightgray;
-  font-family: chivo, serif;
-  font-size: 30px;
-}
-
-.mapAndRules {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(786px, 1fr));
-  width: 100%;
-  max-height: 500px;
-  font-family: chivo, serif;
-}
-
-.mapLocation {
-  max-width: 100%;
-  max-height: 500px;
-  overflow: hidden;
-}
-
-.map{
-  width: 100%;
-  height: 100%;
-}
-
-.parking{
-  width: 100%;
-  height: 100%;
-}
-
-.parkingImg{
-  max-width: 100%;
-  max-height: 500px;
-}
-
 mat-card {
-  text-align: left;
   width: auto;
   height: auto;
   min-height: 200px;
   border-radius: 0 !important;
 }
 
-.padelRules {
-  min-height: 0 !important;
+div{
+  font-family: chivo, serif;
 }
 
-iframe {
-  min-width: fit-content;
-}
 
-.contactInfo{
-  width: auto;
-  height: auto;
-  text-align: center;
-  font-family: chivo-medium, serif;
-  color: floralwhite;
-  background: black;
-}
-
-.contactCard{
-  text-align: center;
-  font-family: chivo-medium, serif;
-  color: floralwhite;
-}
-
+/*intro box styling*/
 .intro{
   padding-top: 110px;
   height: 815px;
@@ -84,28 +28,15 @@ iframe {
 .introText{
   color: #fdc100;
   font-size: 60px;
-  font-family: chivo, serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding-top: 10%;
   padding-left: 10%;
 }
 
-.rulesText {
-  font-family: chivo, serif;
-}
 
-.rulesTextFade {
-  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,2)), to(rgba(0,0,0,0)))
-}
-
-.padelRulesTitle{
-  font-family: chivo, serif;
-  font-size: 35px;
-}
-
+/*WhatsApp styling*/
 .whatsApp{
   height: 400px;
-  font-family: chivo, serif;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/assets/img/padelbg.png");
   background-size: 100% 100%;
@@ -113,6 +44,13 @@ iframe {
   color: lightgray;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+.whatsAppLink{
+  font-size: 40px;
+}
+
+
+/*Timmi instructions styling*/
 .timmi {
   background: lightgrey;
   min-height: 500px;
@@ -142,8 +80,18 @@ iframe {
   float: right;
 }
 
+
+/*Padel rules styling*/
+.rulesTextFade {
+  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,2)), to(rgba(0,0,0,0)))
+}
+
+.padelRulesTitle{
+  font-size: 35px;
+  text-align: center;
+}
+
 .rulesResize{
-  font-family: chivo, serif;
   float: right;
   background: lightgray;
   border: 2px solid gray !important;
@@ -152,26 +100,92 @@ iframe {
   font-size: 25px;
 }
 
+.padelRules {
+  min-height: 0 !important;
+  background-color: #fdc100;
+  font-size: 25px
+}
+
 .rulesResize:hover{
   background: antiquewhite;
 }
 
+
+/*Parking guide styling*/
+.parkingHeader{
+  text-align: center;
+}
+
+.parkingInstructions{
+  background: lightgray;
+  font-size: 30px;
+}
+
+.mapAndRules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(786px, 1fr));
+  width: 100%;
+  max-height: 500px;
+}
+
+.parking{
+  width: 100%;
+  height: 100%;
+}
+
+.parkingImg{
+  max-width: 100%;
+  max-height: 500px;
+}
+
+
+/*Map styling*/
+.mapLocation {
+  max-width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.map{
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  min-width: fit-content;
+}
+
+
+/*Contact info styling*/
+.contactInfo{
+  width: auto;
+  height: auto;
+  font-family: chivo-medium, serif;
+  color: floralwhite;
+  background: black;
+  font-size: 25px;
+}
+
+.contactCard{
+  text-align: center;
+}
+
+.contactInfoTitle{
+  font-size: 35px;
+}
+
+
+/*And at the end all of the different needed media designs*/
 @media (min-width: 1200px){
   .parkingPhone{
     display: none;
   }
-
 }
 
 @media (min-width: 1200px) and (max-width: 1589px){
   .timmiPicture{
     float: left;
     padding-left: 28%;
-  }
-
-  .map{
-    width: 100%;
-    height: 100%;
   }
 
   .mapLocation {
@@ -202,8 +216,6 @@ iframe {
   .rulesResize{
     height: 65px;
     width: 380px;
-    font-family: chivo, serif;
-    font-size: 25px;
   }
 
   .padelRulesTitle{
@@ -233,7 +245,6 @@ iframe {
     height: 100%;
   }
 }
-
 #egggif {
   position: absolute;
   top: 60%;
