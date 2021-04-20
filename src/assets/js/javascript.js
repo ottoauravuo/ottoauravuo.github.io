@@ -11,7 +11,7 @@ function changeHeaderLanguageENG(){
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play Padel with? Join our WhatsApp group!";
-  document.getElementById("whatsAppLink").innerHTML = "Link for the WhatsApp-group: <a style='font-size: 50px; color:white' href='https://chat.whatsapp.com/DhrUilT7DuhKwryJxkOnYD'><span>HERE</span></a>";
+  document.getElementById("whatsAppLink").innerHTML = "Link for the WhatsApp-group: <a style='font-size: 50px; color:white' href='https://chat.whatsapp.com/DhrUilT7DuhKwryJxkOnYD'><span>KLICK HERE</span></a>";
   document.getElementById("timmiText").innerHTML = "You can make a reservation here: <a style='color:white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;' href='https://www.timmi4.lappeenranta.fi'>timmi4.lappeenranta.fi</a> . You can only make reservations through Timmi. Unfortunately the site is only available in Finnish. <br> <br> \n" +
     "\n" +
    "How to make a reservation: Liikuntatoimi --> Log in/register --> Varauskalenteri --> Search for: Skinnarilan Padelkenttä --> Pick your preferred time and fill in the required info.";
