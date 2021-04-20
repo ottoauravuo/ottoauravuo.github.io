@@ -1,9 +1,13 @@
+
+//Header text english translations
 function changeHeaderLanguageENG(){
   document.getElementById("title").innerHTML = "Skinnarila Padel Field";
   document.getElementById("socialMediaText").innerHTML = "Follow us";
   document.getElementById("mediumSocialMediaText").innerHTML = "Follow us";
   document.getElementById("smallSocialMediaText").innerHTML = "Follow us";
 }
+
+//All other text english translations
 function changeBodyLanguageENG(){
   document.getElementById("introText").innerHTML = "<strong>Let's play<br> Padel!</strong>";
   document.getElementById("whatsApp").innerHTML = "Looking for people to play Padel with? Join our WhatsApp group!";
@@ -42,6 +46,7 @@ function changeBodyLanguageENG(){
   document.getElementById("contactInfoTitle").innerHTML = "Contact Info";
 }
 
+//Header finnish translations
 function changeHeaderLanguageFIN() {
   document.getElementById("title").innerHTML = "Skinnarilan Padelkenttä";
   document.getElementById("socialMediaText").innerHTML = "Seuraa meitä";
@@ -49,6 +54,7 @@ function changeHeaderLanguageFIN() {
   document.getElementById("smallSocialMediaText").innerHTML = "Seuraa meitä";
 }
 
+//All other text finnish translations
 function changeBodyLanguageFIN(){
   document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan<br> Padelia!</strong>";
   document.getElementById("whatsApp").innerHTML = "Etsitkö pelikavereita? Liity meidän WhatsApp-ryhmään!";
@@ -87,6 +93,8 @@ function changeBodyLanguageFIN(){
   document.getElementById("contactInfoTitle").innerHTML = "Yhteystiedot";
 }
 
+
+//Functio to hide part of the rules and bring them back
 function rulesMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -104,7 +112,6 @@ function rulesMore() {
     document.getElementById("rulesText").classList.remove("rulesTextFade");
   }
 }
-
 var egg = new Egg();
 egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
     jQuery('#egggif').fadeIn(500, function() {

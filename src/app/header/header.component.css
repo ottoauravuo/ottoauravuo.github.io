@@ -1,3 +1,5 @@
+
+/*Basic style for whole header*/
 .header{
   background-color: black;
   text-align: left;
@@ -11,6 +13,8 @@
   min-width: 1200px;
 }
 
+
+/*Style for headers main text*/
 .title {
   font-size: 50px;
   font-family: chivo-medium, serif;
@@ -18,18 +22,24 @@
   float: right;
   padding-right: 10%;
   width: 650px;
+  display: inline;
 }
 
-.headerSocial{
-  float: right;
-  padding-top: 20px;
-  padding-right: 20px;
-}
 
+/*Moveo logo*/
 .headerContent{
   float: left;
 }
 
+.image{
+  height : 80px;
+  width : 270px;
+  padding-left: 20px;
+  padding-top: 18px;
+}
+
+
+/*Style for text before social media buttons*/
 .socialMediaText {
   float: right;
   color: #fdc100;
@@ -38,15 +48,12 @@
   font-family: chivo,serif;
 }
 
-.top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
 
-image{
-  height: 50px;
-  width: 50px;
+/*Social media buttons*/
+.headerSocial{
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 .fa {
@@ -73,15 +80,8 @@ image{
   color: white;
 }
 
-.title {
-  font-size: 50px;
-  font-family: chivo-medium, serif;
-  color: #fdc100;
-  display: inline;
-  float: right;
-  padding-right: 10%;
-}
 
+/*Language buttons*/
 .finButton{
   height: 40px;
   width: 50px;
@@ -104,29 +104,20 @@ image{
   background-repeat: no-repeat;
 }
 
+/*Different style for different @media types*/
 @media only screen and (min-width: 1575px){
-  .title {
-    font-size: 50px;
-    font-family: chivo-medium, serif;
-    color: #fdc100;
-    float: right;
-    padding-right: 10%;
-  }
-
   .fullText{display: inline;}
   .mediumText{display: none;}
   .shortText{display: none;}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1575px) {
-
   .fullText{display: none;}
   .mediumText{display: inline;}
   .shortText{display: none;}
 }
 
 @media (max-width: 1200px){
-
   .fullText{display: none;}
   .mediumText{display: none;}
   .shortText{display: inline;}
@@ -136,10 +127,6 @@ image{
     width: 90px;
     float: left;
     top: 32%;
-    background-image: url("src/assets/img/finFlag.jpg");
-    margin-left: 0.5%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
   }
 
   .engButton{
@@ -147,33 +134,22 @@ image{
     width: 90px;
     float: left;
     top: 32%;
-    background-image: url("src/assets/img/engFlag.png");
     margin-left: 3%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
   }
 
   .headerSocial{
     float: left;
-    padding-top: 20px;
   }
 
   .socialMediaText {
     float: left;
-    color: #fdc100;
-    padding-top: 28px;
-    font-family: chivo,serif;
     padding-left: 3%;
     font-size: 35px;
   }
 
   .fa {
-    margin-top: 20px;
-    padding: 15px;
     font-size: 30px;
     width: 30px;
     height: 30px;
-    text-align: center;
-    text-decoration: none;
   }
 }

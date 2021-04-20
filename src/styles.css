@@ -4,6 +4,7 @@ body{
   padding: 0;
 }
 
+/*Right fonts from Moveo*/
 @font-face {
   font-family: "chivo-medium";
   src: local("chivo"), url(assets/fonts/chivo/Chivo-Medium.otf) format("truetype");
