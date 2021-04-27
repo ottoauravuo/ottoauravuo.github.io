@@ -55,7 +55,7 @@ function changeHeaderLanguageFIN() {
 }
 
 //All other text finnish translations
-function changeBodyLanguageFIN(){
+function changeBodyLanguageFIN() {
   document.getElementById("introText").innerHTML = "<strong>Kaikki pelaamaan<br> Padelia!</strong>";
   document.getElementById("whatsApp").innerHTML = "Etsitkö pelikavereita? Liity meidän WhatsApp-ryhmään!";
   document.getElementById("whatsAppLink").innerHTML = "Linkki WhatsApp- ryhmään: <a style=\"font-size: 50px; color:white\" href=\"https://chat.whatsapp.com/DhrUilT7DuhKwryJxkOnYD\"><span>TÄSTÄ</span></a></a>";
@@ -94,7 +94,7 @@ function changeBodyLanguageFIN(){
 }
 
 
-//Functio to hide part of the rules and bring them back
+//Function to hide part of the rules and bring them back
 function rulesMore() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -112,6 +112,20 @@ function rulesMore() {
     document.getElementById("rulesText").classList.remove("rulesTextFade");
   }
 }
+
+//Function to animate background when scrolling
+var velocity = 0.5;
+
+function update(){
+  var pos = $(window).scrollTop();
+  $('.container').each(function() {
+    var $element = $(this);
+    var height = $element.height()-18;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px');
+  });
+}
+$(window).bind('scroll', update);
+
 var egg = new Egg();
 egg.addCode("up,up,down,down,left,right,left,right,b,a", function() {
     jQuery('#egggif').fadeIn(500, function() {
